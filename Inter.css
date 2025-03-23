@@ -1865,7 +1865,7 @@ flex-wrap: wrap;
   }
   
   .div4 h2{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   
   /* End of the sixth container */
@@ -1915,12 +1915,18 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: 6px;
     margin-top: 20px;
-    width: 100%;
+    width: 50%;
   }
   
   .eight-content2 p{
     font-size: 0.8rem;
-    
+    /* white-space: nowrap; */
+word-wrap: break-word;
+width: 250px;
+  }
+
+  .eight-content2 h2{
+    font-size: 1.5rem;
   }
   
   /* End of the eight container */
