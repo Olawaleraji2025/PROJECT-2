@@ -681,8 +681,10 @@ padding-bottom: 100px;
 .eight-content1{
   width: 100%;
   height: auto;
+  /* display: block; */
   animation: olawale 2s ease-in-out infinite;
   /* position: relative; */
+
   margin-top: 100px;
   margin-left: 150px;
 }
@@ -1570,7 +1572,26 @@ flex-wrap: wrap;
 }
 
 
-@media (min-width: 320px) and (max-width: 600px)
+@media (min-width: 451px) and (max-width: 600px){
+
+  .third-container-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .min{
+    width: 300px;
+  }
+
+  .third-container-img span{
+    left: 20px;
+  }
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 450px)
 {
   * {
     box-sizing: border-box;
@@ -1618,25 +1639,18 @@ flex-wrap: wrap;
   
   
   
-  .header_container{
+  .Header-container{
     width: 100%;
-   
-    flex-wrap: wrap;
-      /* width: auto;
-      flex-wrap: wrap;
-      overflow-x: hidden; */
-      /* position: fixed;
-      top: 0; */
-      
+    height: 80px;
+    display: flex;
   }
   
   .fa-icon{
     display: flex;
-    flex-flow: row;
-    justify-content: right;
-   position: relative;
+   position: absolute;
+   font-size: 25px;
    bottom: 20px;
-   right: 10px;
+   right: 15px;
   }
   
   .header-content nav ul{
@@ -1644,12 +1658,17 @@ flex-wrap: wrap;
           
       }
   
+.header-content{
+  padding: 1rem;
+/* border: solid red; */
+
+width: 100%;
+}
+
       .header-content img{
-          margin-top: 10px;
         display: block;
-        margin-right: auto;
-       height: 25px;
-  
+        margin-top: 15px;
+margin-right: 70%;
         }
   
         .nigeria{
@@ -1709,11 +1728,11 @@ flex-wrap: wrap;
         }
   
         .min{
-          max-width: 300px;
-          height: auto;
+          max-width: 500px;
+          /* height: auto; */
           object-fit: contain;
           border-radius: 10px;
-          margin-right: 30px;
+          margin-right: 30%;
           top: 0;
           order: 3;
           position: relative;
@@ -1722,7 +1741,7 @@ flex-wrap: wrap;
   
         .third-container-img span{
           position: absolute;
-          left: 100px;
+          left: 60px;
           top: 60px;
           font-size: 20px;
           z-index: 1;
@@ -1853,7 +1872,7 @@ flex-wrap: wrap;
   }
   
   .div2 h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   
   .div3 h2{
@@ -1900,14 +1919,12 @@ flex-wrap: wrap;
     height: auto;
     z-index: 1;
     margin: 20px auto;
-    
-   
-    
+    display: block;
   }
   
   .eight-content1 img{
     width: 90%;
-    top: 0;
+
   }
   
   .eight-content2{
@@ -1939,7 +1956,7 @@ width: 250px;
   }
   
   .ninth-content h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0 auto;
     padding: 0 10px;
   }
