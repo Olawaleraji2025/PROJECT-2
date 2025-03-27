@@ -995,6 +995,7 @@ bottom: 15px;
     width: 100%;
     height: 80px;
     display: flex;
+    z-index: 4;
   }
   
   .fa-icon{
@@ -1082,7 +1083,7 @@ margin-right: 70%;
           left: 110px;
           top: 60px;
           font-size: 20px;
-          z-index: 1;
+          z-index: 3;
           padding: 7px ;
           
         }
