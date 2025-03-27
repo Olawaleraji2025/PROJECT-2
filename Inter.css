@@ -939,36 +939,7 @@ bottom: 15px;
 
 @media (max-width: 600px){
 
-  .third-container-img {
-    order: 3; 
-    margin-bottom: 0;
-    background-image: none;
-  width: 250px;
-  
-  height: auto;
-  }
-
-  .min{
-    max-width: 500px;
-    /* height: auto; */
-    object-fit: contain;
-    border-radius: 10px;
-    margin-right: 30%;
-    top: 0;
-    order: 3;
-    position: relative;
-    margin-bottom: 0;
-  }
-
-  .third-container-img span{
-    position: absolute;
-    left: 60px;
-    top: 60px;
-    font-size: 20px;
-    z-index: 1;
-    padding: 7px ;
-    
-  }
+ 
 
 }
 
@@ -1085,7 +1056,37 @@ margin-right: 70%;
           width: 100%; 
         }
   
-       
+        .third-container-img {
+          order: 3; 
+          margin: 0;
+          background-image: none;
+        width: 250px;
+        display: flex;
+        height: auto;
+        }
+      
+        .min{
+          max-width: 500px;
+          /* height: auto; */
+          object-fit: contain;
+          border-radius: 10px;
+          margin-right: 30%;
+          top: 0;
+          order: 3;
+          position: relative;
+          margin-bottom: 0;
+        }
+      
+        .third-container-img span{
+          position: absolute;
+          left: 110px;
+          top: 60px;
+          font-size: 20px;
+          z-index: 1;
+          padding: 7px ;
+          
+        }
+
 
 
 
@@ -1123,6 +1124,8 @@ margin-right: 70%;
           height: 20px;
         }
   
+      
+
         .Fourth-container-content{
           display: flex;
           flex-wrap: wrap;
@@ -1301,6 +1304,7 @@ width: 250px;
 
   .eight-content2 h2{
     font-size: 1.5rem;
+    white-space: nowrap;
   }
   
   /* End of the eight container */
@@ -1357,6 +1361,17 @@ width: 250px;
   .footer-section2 p{
     font-size: 0.8rem;
   }
+
+.tool-tip img {
+  width: 40px;
+  position: fixed;
+  left: 10px;
+  bottom: 0;
+  z-index: 4;
+
+  height: 50px;
+}
+
 }
 
 @media (min-width: 400px) and (max-width: 600px){
@@ -1369,10 +1384,11 @@ width: 250px;
   .min{
     width: 350px;
     max-width: 400px;
+    margin: 0 auto;
   }
 
   .third-container-img span{
-    left: 80px;
+    left: 130px;
     top: 100px;
   }
 
